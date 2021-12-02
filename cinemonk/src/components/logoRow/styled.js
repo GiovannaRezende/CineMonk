@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-const LogoRow = styled.div`
+const Container = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
 
     .image{
         
@@ -14,4 +15,4 @@ const LogoRow = styled.div`
     }
 `
 
-export { LogoRow };
+export { Container };

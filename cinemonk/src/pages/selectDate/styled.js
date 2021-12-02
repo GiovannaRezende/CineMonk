@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-const selectDate = styled.div`
+const Container = styled.div`
 
 `
 
-export { selectDate };
+export { Container };
