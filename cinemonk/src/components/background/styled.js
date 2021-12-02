@@ -5,6 +5,7 @@ const Background = styled.div`
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100vh;
+    background-position: bottom 0px right 0px;
 `
 
 export { Background };

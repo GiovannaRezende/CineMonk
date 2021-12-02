@@ -7,7 +7,7 @@ export default function SelectDate(){
         <Container>
             <Background>
             <LogoRow/>
-            
+
             </Background>
         </Container>
     )
