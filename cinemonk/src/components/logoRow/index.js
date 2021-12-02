@@ -1,3 +1,5 @@
+import { LogoRow } from './styled';
+
 export default function LogoRow(){
     return(
         <div className="container-logo">

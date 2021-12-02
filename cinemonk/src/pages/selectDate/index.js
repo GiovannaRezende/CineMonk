@@ -1,5 +1,5 @@
 import { Background } from '../../components/background/styled';
-import SelectDate from './styled';
+import selectDate from './styled';
 
 export default function SelectDate(){
     return(
