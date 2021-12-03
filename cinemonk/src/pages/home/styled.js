@@ -1,11 +1,10 @@
 import styled from 'styled-components'
 
 const Container = styled.div`
-    .conteudo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     .titulo {
         color: #E1E1E1;
