@@ -10,16 +10,19 @@ export default function SelectDate(){
             <Background>
                 <LogoRow/>
                 <div className="contents">
-                    <div className="left">
-                        <BoxDateLarge/>
-                    </div>   
-                    <div className="right">
-                        <BoxDateSmall/>
-                        <BoxDateSmall/>
-                        <BoxDateSmall/>
-                        <BoxDateSmall/>
-                        <BoxDateSmall/>
-                        <BoxDateSmall/>
+                    <div className="title"> Selecione a data que você deseja comprar o ingresso. </div>
+                    <div className="boxes">
+                        <div className="left">
+                            <BoxDateLarge/>
+                        </div>   
+                        <div className="right">
+                            <BoxDateSmall/>
+                            <BoxDateSmall/>
+                            <BoxDateSmall/>
+                            <BoxDateSmall/>
+                            <BoxDateSmall/>
+                            <BoxDateSmall/>
+                        </div>
                     </div>
                 </div>
             </Background>

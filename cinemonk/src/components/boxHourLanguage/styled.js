@@ -16,7 +16,7 @@ const Container = styled.div`
     padding: .5em;
     border-radius: .8em;
 
-    margin-bottom: 2em;
+    margin-bottom: 1.3em;
 
     .room{
         font: 600 1.1em Space Mono;

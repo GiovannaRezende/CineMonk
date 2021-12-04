@@ -16,6 +16,8 @@ const Container = styled.div`
     padding: .5em;
     border-radius: .8em;
 
+    margin-bottom: 1em;
+
     .day-of-week{
         font: 600 1.1em Space Mono;
         font-weight: bold;

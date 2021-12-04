@@ -23,6 +23,7 @@ const Container = styled.div`
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: space-around;
 
         padding: 0em 15em;
     }
