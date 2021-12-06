@@ -2,13 +2,12 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 
     .image{
         width: 5.6em;
         height: auto;
-        margin-right: 1em;
     }
 
     .text{
