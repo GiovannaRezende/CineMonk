@@ -5,7 +5,7 @@ const Background = styled.div`
     background-image: url("/assets/images/background.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-position: bottom 0px right 0px;
 `
 

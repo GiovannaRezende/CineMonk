@@ -5,6 +5,10 @@ import Pagamento from './pages/pagamento';
 import SelectDate from '../src/pages/selectDate/index';
 import SelectHourLanguage from './pages/selectHourLanguage';
 import SelectSeat from './pages/selectSeat';
+import SelectMovie from './pages/movie-select';
+import Complete from './pages/complete';
+
+
 
 export default function Routes(){
     return(
@@ -14,6 +18,8 @@ export default function Routes(){
                 <Route path="/date" component={SelectDate} />
                 <Route path="/hour-language" component={SelectHourLanguage} />
                 <Route path="/seat" component={SelectSeat} />
+                <Route path="/select-movie" component={SelectMovie} />
+                <Route path="/complete" component={Complete} />
 
                 <Route path='/pagamento' component={Pagamento} />
             </Switch>

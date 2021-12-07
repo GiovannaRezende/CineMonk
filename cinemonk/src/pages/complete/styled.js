@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 
 const Container = styled.div`
-    
     header{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         margin-bottom: 1em;
     }
@@ -13,10 +12,12 @@ const Container = styled.div`
     header h1{
         color: #E1E1E1;
         text-shadow: 1px 1px 4px rgba(202, 202, 202, 0.87);
+        width: 45%;
+        margin: 1em 0em;
 
+        text-align: center;
         font-family: 'Share Tech';
-        font-size: 2.3em;
-        margin-left: 2em;
+        font-size: 1.8em;
     }
 
     .box-content{
@@ -24,12 +25,13 @@ const Container = styled.div`
         flex-direction: row;
         flex-wrap: wrap;
 
-        padding: 3em;
+        
+        padding: 0em 5em;
 
         align-items: center;
-        justify-content: space-evenly;
     }
 
 
-`   
-export { Container };
+`
+
+export { Container }
