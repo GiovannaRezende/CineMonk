@@ -20,7 +20,6 @@ export default function Routes(){
                 <Route path="/seat" component={SelectSeat} />
                 <Route path="/select-movie" component={SelectMovie} />
                 <Route path="/complete" component={Complete} />
-
                 <Route path='/pagamento' component={Pagamento} />
             </Switch>
         </BrowserRouter>
